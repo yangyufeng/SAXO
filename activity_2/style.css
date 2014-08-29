@@ -1,0 +1,120 @@
+@charset "utf-8";
+/*reset*/
+@charset "utf-8";
+body,h1,h2,h3,h4,h5,h6,hr,p,dl,dt,dd,ul,ol,li,form,fieldset,legend,button,input,textarea,th,td{margin:0;padding:0;}
+body,button,input,select,textarea{font:12px/1.5 "Tahoma","Microsoft Yahei" !important;}
+* html body{text-align: center;}
+h1,h2,h3,h4,h5,h6{font-size:100%;}
+em,i{font-style:normal;}
+fieldset,img{border:0;}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+.container-1 {
+    background-color: #EBE5C4;
+}
+.container-2 {
+    background-color: #4B5876;
+    padding: 30px 0;
+}
+
+#wrapper {
+    position: relative;
+    width: 1055px;
+    height: 492px;
+    margin: 0 auto;
+    background: url(img/guess.png) 0 0 no-repeat;
+}
+
+#count-down {
+    position: absolute;
+    width: 291px;
+    height: 162px;
+    background: url(img/daojishi-2.png) 0 0 no-repeat;
+    top: 2px;
+    right: 30px;
+}
+
+#day {
+    position: absolute;
+    color: #C31E33;
+    font-size: 100px;
+    height: 100px;
+    line-height: 100px;
+    width: 100px;
+    text-align: center;
+    top: 40px;
+    left: 75px;
+}
+.container-3 {
+    background-color: #2D3444;
+    padding: 30px 0;
+}
+
+#box { 
+    position: relative;
+    width: 1042px;
+    height: 800px;
+    margin: 0 auto;
+}
+
+.custom-img {
+    display: block;
+    margin: 0 auto;
+}
+
+#boxlittle{ 
+    width: 702px;
+    height: 785px;
+    background: url(img/word.png) 0 0 no-repeat;
+    float: left;
+}
+#sidebox {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 390px;
+}
+
+.news-list .news {
+    position: relative;
+    padding-left: 1em;
+    margin-bottom: 20px;
+    font-size: 14px;
+    line-height: 21px;
+    color: #EBE5C4;
+}
+
+.news-list .news:hover{
+    color: #687BAA;
+}
+
+.news-list .news:before {
+    display: inline-block;
+    position: absolute;
+    content: "";
+    left: 0;
+    top: 8px;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #687BAA;
+}
+.news-tilte {
+    margin: 60px 0;
+    font-weight: normal;
+    font-size: 24px;
+    width: 156px;
+    text-align: center;
+    line-height: 52px;
+    color: #E95659;
+    border: 1px solid #FFF1B9;
+}
+
+
