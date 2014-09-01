@@ -14,7 +14,9 @@
 
 
 
-
+    location /apiv1/app_recommend.json {
+       rewrite /apiv1/app_recommend.json http://api.wallstreetcn.com/apiv1/app_recommend.json break;
+    }
 
 
 
