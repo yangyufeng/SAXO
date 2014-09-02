@@ -19,6 +19,42 @@
 	<script type="text/javascript" src="%E5%85%B3%E4%BA%8E%20JJ%20Ying_files/jquery_002.js"></script>
 	<script type="text/javascript" src="%E5%85%B3%E4%BA%8E%20JJ%20Ying_files/waypoints.js"></script>
 	<script type="text/javascript" src="%E5%85%B3%E4%BA%8E%20JJ%20Ying_files/jquery_003.js"></script>
+
+
+
+<script type="text/javascript">
+02
+function uaredirect(murl){
+03
+    try{
+04
+        if(document.getElementById("bdmark") != null) {
+05
+            return
+06
+        }
+07
+        var urlhash = window.location.hash;
+08
+        if(!urlhash.match("fromapp")){
+09
+            if((navigator.userAgent.match(/(iPhone|iPod|Android|ios|iPad)/i))){
+10
+                location.replace(murl);
+11
+            }
+12
+        }
+13
+    }catch(err){}
+14
+}
+15
+uaredirect("http://activity.wallstreetcn.com/newses/evo1.0_m/");
+16
+</script>
+
+
 <style class="firebugResetStyles" type="text/css" charset="utf-8">/* See license.txt for terms of usage */
 /** reset styling **/
 .firebugResetStyles {
